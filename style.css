@@ -130,3 +130,9 @@ body {
     margin-top: 715px;
     margin-left: 891px;
 }
+
+.logo img {
+    position: absolute;
+    margin-top: 3260px;
+    margin-left: 335px;
+}

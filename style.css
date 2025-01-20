@@ -1,0 +1,132 @@
+body {
+    background: #000;
+}
+
+.title {
+    color: #969696;
+    font-family: 'Athene';
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sub-title {
+    color: #969696;
+    font-family: 'Athene';
+    font-size: 4rem;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.menu {
+    color: #969696;
+    font-family: 'Marvel';
+    font-size: 2rem;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #969696;
+    padding: 40px;
+}
+
+.fotograph {
+    margin-top: 50px;
+    position: relative;
+}
+
+.fotograph .fotograph-sil {
+    margin-right: 40px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.fotograph .fotograph-bro {
+    margin-top: 0px;
+    margin-left: 720px;
+    margin-right: 50px;
+    position: absolute;
+}
+
+.fotograph .fotograph-sim {
+    margin-top: 820px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.fotograph .fotograph-casal {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 720px;
+}
+
+.fotograph .fotograph-red {
+    position: absolute;
+    margin-top: 1266px;
+    margin-left: 50px;
+}
+
+.fotograph .fotograph-aluna {
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 1266px;
+}
+
+.frase {
+    color: #969696;
+    position: absolute;
+    margin-top: 2116px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Athene';
+    font-size: 4rem;
+}
+
+.biograph {
+    background-color: #232323;
+    position: absolute;
+    width: 1350px;
+    height: 810px;
+    margin-top: 2400px;
+    margin-left: -10px;
+}
+
+.biograph img {
+    margin-left: 50px;
+    margin-top: 34px;
+    position: absolute;
+}
+
+.biograph h3 {
+    color: #f2eeee;
+    font-family: 'Londrina Shadow';
+    font-size: 96px;
+    margin-top: 40px;
+    margin-left: 670px;
+    position: absolute;
+}
+
+.biograph p {
+    color: #f2eeee;
+    font-family: 'Kurale';
+    font-size: 36px;
+    width: 650px;
+    height: 550px;
+    margin-top: 174px;
+    margin-left: 670px;
+    text-align: justify;
+    position: absolute;
+}
+
+.biograph button {
+    color: #ffffff;
+    background: #898989;
+    width: 219px;
+    height: 57px;
+    font-size: 30px;
+    font-family: 'Kurale';
+    border-radius: 10rem;
+    margin-top: 715px;
+    margin-left: 891px;
+}

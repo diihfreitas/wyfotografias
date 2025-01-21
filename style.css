@@ -1,5 +1,6 @@
 body {
     background: #000;
+    min-height: 100vh;
 }
 
 .title {
@@ -32,91 +33,64 @@ body {
 }
 
 .fotograph {
-    margin-top: 50px;
-    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 20px;
+    max-width: 1230px;
+    margin: 20px auto;
 }
 
-.fotograph .fotograph-sil {
-    margin-right: 40px;
-    position: absolute;
-    margin-left: 50px;
+.fotograph img {
+    border-radius: 10px;
 }
 
-.fotograph .fotograph-bro {
-    margin-top: 0px;
-    margin-left: 720px;
-    margin-right: 50px;
-    position: absolute;
-}
-
-.fotograph .fotograph-sim {
-    margin-top: 820px;
-    position: absolute;
-    margin-left: 50px;
-}
-
-.fotograph .fotograph-casal {
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 720px;
-}
-
-.fotograph .fotograph-red {
-    position: absolute;
-    margin-top: 1266px;
-    margin-left: 50px;
-}
-
-.fotograph .fotograph-aluna {
-    position: absolute;
-    margin-left: 720px;
-    margin-top: 1266px;
+.fotograph-casal {
+    margin-top: -420px;
 }
 
 .frase {
     color: #969696;
-    position: absolute;
-    margin-top: 2116px;
-    margin-left: 50px;
-    margin-right: 50px;
     font-family: 'Athene';
     font-size: 4rem;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .biograph {
+    position: relative;
     background-color: #232323;
-    position: absolute;
     width: 1350px;
     height: 810px;
-    margin-top: 2400px;
+    margin-top: 60px;
     margin-left: -10px;
 }
 
 .biograph img {
+    position: absolute;
     margin-left: 50px;
     margin-top: 34px;
-    position: absolute;
 }
 
-.biograph h3 {
+.biograph header {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 674px;
     color: #f2eeee;
     font-family: 'Londrina Shadow';
     font-size: 96px;
-    margin-top: 40px;
-    margin-left: 670px;
-    position: absolute;
 }
 
 .biograph p {
+    position: absolute;
     color: #f2eeee;
     font-family: 'Kurale';
     font-size: 36px;
     width: 650px;
     height: 550px;
-    margin-top: 174px;
-    margin-left: 670px;
+    margin-top: 154px;
+    margin-left: 674px;
     text-align: justify;
-    position: absolute;
 }
 
 .biograph button {
@@ -132,7 +106,30 @@ body {
 }
 
 .logo img {
-    position: absolute;
-    margin-top: 3260px;
+    margin-top: 80px;
     margin-left: 335px;
+}
+
+.littleworks {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textmaria {
+    margin-top: auto;
+    color: #969696;
+    font-family: 'Kurale';
+    font-size: 36px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.textjosi {
+    margin-top: auto;
+    color: #969696;
+    font-family: 'Kurale';
+    font-size: 36px;
+    text-align: center;
+    line-height: 35px;
 }

@@ -70,6 +70,7 @@ body {
     position: absolute;
     margin-left: 50px;
     margin-top: 34px;
+    border-radius: 10px;
 }
 
 .biograph header {
@@ -108,6 +109,7 @@ body {
 .logo img {
     margin-top: 80px;
     margin-left: 335px;
+    border-radius: 10px;
 }
 
 .littleworks {
@@ -132,4 +134,60 @@ body {
     font-size: 36px;
     text-align: center;
     line-height: 35px;
+}
+
+.viewwork header a {
+    color: #969696;
+    margin-top: auto;
+    margin-left: 80px;
+    text-align: center;
+    font-family: 'Kurale';
+    font-size: 128px;
+    text-decoration: none;
+}
+
+.myworks {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.image-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.myworks img {
+    width: 100%;
+    max-width: 640px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.myworks button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.myworks button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Cor ao passar o mouse sobre o botão */
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
 }

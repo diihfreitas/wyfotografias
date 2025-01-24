@@ -8,6 +8,7 @@
 }
 
 .biograph img {
+    display: flex;
     position: absolute;
     margin-left: 50px;
     margin-top: 34px;
@@ -15,6 +16,7 @@
 }
 
 .biograph header {
+    display: flex;
     position: absolute;
     margin-top: 20px;
     margin-left: 674px;
@@ -24,6 +26,7 @@
 }
 
 .biograph p {
+    display: flex;
     position: absolute;
     color: #f2eeee;
     font-family: 'Kurale';
@@ -48,6 +51,7 @@
 }
 
 .logo img {
+    display: flex;
     margin-top: 80px;
     margin-left: 335px;
     border-radius: 10px;
@@ -58,14 +62,11 @@
         width: 100%;
         height: auto; 
         margin-left: 0; 
-        padding: 20px; 
+        padding: 20px;
     }
 
     .biograph img {
-        position: static; 
-        width: 100%;
-        margin: 0 auto 20px;
-        display: block;
+        display: none;
     }
 
     .biograph header {
@@ -92,7 +93,6 @@
     }
 
     .logo img {
-        width: 100%;
-        margin: 20px auto;
+        display: none;
     }
 }

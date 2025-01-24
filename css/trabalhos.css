@@ -30,6 +30,7 @@
     font-family: 'Kurale';
     font-size: 128px;
     text-decoration: none;
+    align-items: center;
 }
 
 .myworks {
@@ -95,8 +96,8 @@
 
     .viewwork header a {
         font-size: 64px;
-        margin-left: 0; 
         text-align: center;
+        align-items: center;
     }
 
     .myworks img {

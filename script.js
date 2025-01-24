@@ -21,28 +21,28 @@ document.querySelector('.prev').addEventListener('click', () => {
     container.style.transform = `translateX(-${currentIndex * 500}px)`;
 });
 
-// Seleciona o elemento do link
+
 const link = document.querySelector('.instagram a');
 
-// Duplicando o conteúdo para criar o efeito de rolagem contínua
 link.innerHTML += link.innerHTML;
 
-// Define o movimento contínuo do texto
-let position = 0; // Posição inicial
-const speed = 1; // Velocidade do movimento (ajuste conforme necessário)
+let position = 0;
+const speed = 1;
 
-// Função para animar o texto
 function scrollText() {
-    position -= speed; // Move o texto para a esquerda
-    link.style.transform = `translateX(${position}px)`; // Aplica a transformação
+    position -= speed;
+    link.style.transform = `translateX(${position}px)`;
 
-    // Reinicia o texto quando metade do conteúdo sair da tela
     if (Math.abs(position) >= link.scrollWidth / 2) {
-        position = 0; // Reinicia a posição
+        position = 0;
     }
 
-    requestAnimationFrame(scrollText); // Continua a animação
+    requestAnimationFrame(scrollText);
 }
 
-// Inicializa a animação
 scrollText();
+
+document.querySelector('.menu-toggle').addEventListener('click', function () {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+});

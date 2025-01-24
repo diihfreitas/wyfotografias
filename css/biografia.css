@@ -1,0 +1,98 @@
+.biograph {
+    position: relative;
+    background-color: #232323;
+    width: 1350px;
+    height: 810px;
+    margin-top: 60px;
+    margin-left: -10px;
+}
+
+.biograph img {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 34px;
+    border-radius: 10px;
+}
+
+.biograph header {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 674px;
+    color: #f2eeee;
+    font-family: 'Londrina Shadow';
+    font-size: 96px;
+}
+
+.biograph p {
+    position: absolute;
+    color: #f2eeee;
+    font-family: 'Kurale';
+    font-size: 36px;
+    width: 650px;
+    height: 550px;
+    margin-top: 154px;
+    margin-left: 674px;
+    text-align: justify;
+}
+
+.biograph button {
+    color: #ffffff;
+    background: #898989;
+    width: 219px;
+    height: 57px;
+    font-size: 30px;
+    font-family: 'Kurale';
+    border-radius: 10rem;
+    margin-top: 715px;
+    margin-left: 891px;
+}
+
+.logo img {
+    margin-top: 80px;
+    margin-left: 335px;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .biograph {
+        width: 100%;
+        height: auto; 
+        margin-left: 0; 
+        padding: 20px; 
+    }
+
+    .biograph img {
+        position: static; 
+        width: 100%;
+        margin: 0 auto 20px;
+        display: block;
+    }
+
+    .biograph header {
+        position: static;
+        font-size: 36px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .biograph p {
+        position: static; 
+        font-size: 18px;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: justify;
+    }
+
+    .biograph button {
+        position: static;
+        display: block;
+        margin: 20px auto;
+        font-size: 20px;
+    }
+
+    .logo img {
+        width: 100%;
+        margin: 20px auto;
+    }
+}

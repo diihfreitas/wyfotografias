@@ -1,0 +1,47 @@
+.menu {
+    color: #969696;
+    font-family: 'Marvel';
+    font-size: 2rem;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #969696;
+    padding: 40px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #232323;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        left: 0;
+        padding: 20px 0;
+        z-index: 1000;
+    }
+
+    .menu a {
+        padding: 10px 0;
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 2.5rem;
+        color: #969696;
+        z-index: 1100;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}

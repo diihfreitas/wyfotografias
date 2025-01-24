@@ -1,0 +1,119 @@
+.littleworks {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textmaria {
+    margin-top: auto;
+    color: #969696;
+    font-family: 'Kurale';
+    font-size: 36px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.textjosi {
+    margin-top: auto;
+    color: #969696;
+    font-family: 'Kurale';
+    font-size: 36px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.viewwork header a {
+    color: #969696;
+    margin-top: auto;
+    margin-left: 80px;
+    text-align: center;
+    font-family: 'Kurale';
+    font-size: 128px;
+    text-decoration: none;
+}
+
+.myworks {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.image-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.myworks img {
+    width: 100%;
+    max-width: 640px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.myworks button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.myworks button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Cor ao passar o mouse sobre o botão */
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+@media (max-width: 800px) {
+    .littleworks {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .textmaria,
+    .textjosi {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 10px; 
+    }
+
+    .viewwork header a {
+        font-size: 64px;
+        margin-left: 0; 
+        text-align: center;
+    }
+
+    .myworks img {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .myworks button {
+        font-size: 24px;
+        padding: 8px;
+    }
+
+    .prev {
+        left: 5px;
+    }
+
+    .next {
+        right: 5px;
+    }
+}

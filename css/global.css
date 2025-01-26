@@ -1,25 +1,5 @@
-@import './biografia.css';
-@import './footer.css';
-@import './header.css';
-@import './instagram.css';
-@import './main.css';
-@import './menu.css';
-@import './trabalhos.css';
-
-
-body {
-    background: #000;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-@media (max-width: 800px) {
-    body {
-        padding: 20px; 
-        font-size: 16px;
-    }
-}
+@import './style.css';
+@import './1header.css';
+@import './2menu.css';
+@import './3main.css';
+@import './4biografia.css';

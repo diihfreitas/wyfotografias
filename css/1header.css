@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.title {
+    color: #969696;
+    font-family: 'Athene';
+    font-size: 7em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sub-title {
+    color: #969696;
+    font-family: 'Athene';
+    font-size: 4em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 414px) {
+    .title {
+        font-size: 3.5em;
+    }
+
+    .sub-title {
+        font-size: 2em;
+    }
+
+    .header {
+        display: block;
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+    }
+}

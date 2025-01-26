@@ -8,6 +8,7 @@
 }
 
 .fotograph img {
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -23,16 +24,20 @@
     margin-top: 50px;
 }
 
-@media (max-width: 800px) {
+@media (max-width:414px) {
     .fotograph {
-        grid-template-columns: 1fr;
-        gap: 10px;
-        max-width: 100%;
-        margin: 10px auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        width: 80%;
+        overflow: hidden;
     }
 
     .fotograph img {
-        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 
     .fotograph-casal {
@@ -41,8 +46,9 @@
 
     .frase {
         font-size: 2rem;
-        margin-left: 20px; 
-        margin-top: 20px;
+        display: flex;
         text-align: center;
+        margin: 25px 25px;
+        overflow: hidden;
     }
 }

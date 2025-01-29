@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.menu-nav {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin-top: 20px;
+}
+
+.menu-nav a {
+    color: #969696;
+    font-family: 'Marvel';
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.menu-nav a:hover {
+    color: #969696;
+}
+
+.menu-hamburguer {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 0.3rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.menu-hamburguer span {
+    width: 30px;
+    height: 3px;
+    background: #969696;
+    border-radius: 3px;
+    overflow: hidden;
+}
+@media (max-width: 414px) {
+    .menu-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #131313;
+        width: 200px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu-nav.active {
+        display: flex;
+    }
+
+    .menu-hamburguer {
+        display: flex;
+    }
+}

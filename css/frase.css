@@ -1,0 +1,15 @@
+.frase {
+    color: #969696;
+    font-family: 'Athene';
+    font-size: 4rem;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+@media (max-width: 414px) {
+    .frase {
+        font-size: 1.5rem;
+        margin: 20px;
+    }
+}

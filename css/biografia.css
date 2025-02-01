@@ -1,0 +1,57 @@
+.grid-minibio {
+    background: #232323;
+    display: block;
+    width: 100%;
+    height: 810px;
+    padding: 34px 34px 50px;
+    margin: 60px 0 80px 0;
+}
+
+.minibio {
+    display: flex;
+}
+
+.minibio img {
+    display: flex;
+    border-radius: 20px;
+}
+
+.minibio .bio {
+    display: grid;
+    margin: -10px 0 0 40px;
+}
+
+.bio .hello {
+    display: block;
+    color: #f2eeee;
+    font-family: 'Londrina Shadow';
+    font-size: 5.750rem;
+    align-items: center;
+    text-align: justify;
+}
+
+.bio p {
+    display: block;
+    margin-top: -150px;
+    color: #f2eeee;
+    font-family: 'Kurale';
+    font-size: 2.5rem;
+    text-align: justify;
+    align-items: center;
+}
+
+.grid-saibamais {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: -115px 240px 160px 891px;
+    width: 220px;
+    height: 60px;
+}
+
+.grid-saibamais .saibamais {
+    background: #898989;
+    color: #fff;
+    font-family: 'Kurale';
+    font-size: 2rem;
+    border-radius: 30px;
+}

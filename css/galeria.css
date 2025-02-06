@@ -31,14 +31,17 @@
         padding: 0.5rem;
         margin-top: 20px;
         margin-left: 110px;
+        overflow: hidden;
     }
 
     .grid-galeria img {
         width: 100%;
         height: auto;
+        overflow: hidden;
     }
 
     .grid-galeria .imgcasal {
         margin-top: 0px;
+        overflow: hidden;
     }
 }

@@ -45,3 +45,16 @@
   z-index: 1001;
   transform: none;
 }
+
+@media (max-width: 700px) {
+  .galery-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .container-galery {
+    padding: 8px;
+  }
+  .galery-img {
+    border-radius: 8px;
+  }
+}

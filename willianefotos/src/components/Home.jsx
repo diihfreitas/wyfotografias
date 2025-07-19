@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import '../style-page-css/Title.css'
 import '../style-page-css/Menu.css'
 import '../style-page-css/Galery.css'
+import '../style-page-css/Minibio.css'
 import * as imagens from '../../fotos/imagens.js'
 
 const Home = () => {
@@ -73,6 +74,20 @@ const Home = () => {
             />
           </div>
         )}
+      </section>
+
+      {/* Biografia */}
+      <section className='container-minibio'>
+        <img src={imagens.williane} alt='Williane Yale' className='minibio-img' />
+        <div className='grid-minibio'>
+          <h2 className='hello'>Olá meus amigos...</h2>
+          <p className='minibio-text'>...meu nome é Williane Yale, sou fotógrafa, servidora pública, 
+            nascida em 1990, cristã, amo séries de época, amo viajar e estar 
+            em contato com a natureza. Uma frase marcante em minha vida é: 
+            “Enquanto há vida, há esperança.” Sejam bem-vindos ao meu site. 
+            Quer saber mais sobre mim? Clica aqui em baixo!
+          </p>
+        </div>
       </section>
     </div>
   )

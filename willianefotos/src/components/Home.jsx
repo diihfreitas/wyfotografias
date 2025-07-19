@@ -87,6 +87,7 @@ const Home = () => {
             “Enquanto há vida, há esperança.” Sejam bem-vindos ao meu site. 
             Quer saber mais sobre mim? Clica aqui em baixo!
           </p>
+          <button className='minibio-btn'>Saiba mais</button>
         </div>
       </section>
     </div>

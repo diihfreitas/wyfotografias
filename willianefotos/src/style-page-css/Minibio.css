@@ -40,7 +40,31 @@
     display: block;
     color: #f2eeee;
     font-family: 'Kurale';
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     text-align: justify;
     align-items: center;
+}
+
+.minibio-btn {
+  margin-top: 24px;
+  padding: 10px 28px;
+  background: linear-gradient(90deg, #969696 0%, #232323 100%);
+  color: #fff;
+  font-family: 'Kurale', serif;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+  letter-spacing: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.minibio-btn:hover {
+  background: linear-gradient(90deg, #232323 0%, #969696 100%);
+  color: #232323;
+  transform: scale(1.05);
 }

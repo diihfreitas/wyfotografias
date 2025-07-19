@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import '../../componentscss/Title.css'
-import '../../componentscss/Menu.css'
-import '../../componentscss/Galery.css'
+import '../stylepagecss/Title.css'
+import '../stylepagecss/Menu.css'
+import '../stylepagecss/Galery.css'
 import * as imagens from '../../fotos/imagens.js'
 
 const Home = () => {

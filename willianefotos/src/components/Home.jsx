@@ -22,7 +22,7 @@ const GALLERY_IMAGES = [
 ];
 
 const CAROUSEL_IMAGES = [
-  { src: imagens.josilene, alt: 'Josilene' },
+  { src: imagens.josi, alt: 'Josilene' },
   { src: imagens.irmaos, alt: 'Irmãos' },
   { src: imagens.mariaHeloisa, alt: 'Maria Heloisa' },
   { src: imagens.renata, alt: 'Renata' },

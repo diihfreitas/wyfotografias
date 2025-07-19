@@ -4,7 +4,7 @@ import caminhando from './caminhando.jpg'
 import familia from './familia.jpg'
 import fiveyears from './fiveyears.jpg'
 import happy from './happy.jpg'
-import josilene from './josilene.jpg'
+import josi from './josi.jpg'
 import flores from './flores.jpg'
 import irmaos from './irmaos.jpg'
 import mariaHeloisa from './maria-heloisa.jpg'
@@ -22,7 +22,7 @@ export {
   familia,
   fiveyears,
   happy,
-  josilene,
+  josi,
   flores,
   irmaos,
   mariaHeloisa,

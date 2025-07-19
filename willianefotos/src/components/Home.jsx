@@ -3,6 +3,7 @@ import '../style-page-css/Title.css'
 import '../style-page-css/Menu.css'
 import '../style-page-css/Galery.css'
 import '../style-page-css/Minibio.css'
+import '../style-page-css/WordsEffects.css'
 import * as imagens from '../../fotos/imagens.js'
 
 const Home = () => {
@@ -74,6 +75,13 @@ const Home = () => {
             />
           </div>
         )}
+      </section>
+
+      {/* Frase de Efeito */}
+      <section>
+        <h3 className='wordseffects'>"... a fotografia tira um instante do tempo, alterando
+        a vida ao mantê-la imóvel."
+        </h3>
       </section>
 
       {/* Biografia */}

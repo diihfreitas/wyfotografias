@@ -87,13 +87,22 @@
   .hello {
     font-size: 2.2rem;
     text-align: center;
+    font-family: 'Georgia', serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
   }
   .minibio-text {
     font-size: 1.1rem;
     text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
   }
   .minibio-btn {
     font-size: 1.1rem;
     padding: 8px 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
   }
 }

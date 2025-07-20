@@ -5,6 +5,7 @@ import '../style-page-css/Galery.css';
 import '../style-page-css/Minibio.css';
 import '../style-page-css/WordsEffects.css';
 import '../style-page-css/Carousel.css';
+import '../style-page-css/Contact.css';
 import * as imagens from '../../fotos/imagens.js';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Navigation } from 'swiper/modules';
@@ -226,6 +227,23 @@ const Home = () => {
           </div>
         )}
       </section>
+      
+      {/* Contato */}
+      <section className='container-contact' style={{ margin: '60px 0 40px 0', textAlign: 'center' }}>
+        <h2 className='contact-title'>Contato</h2>
+        <p className='contact-email'>E-mail: <a href='mailto:willianeyale@gmail.com'>willianeyale@gmail.com</a></p>
+        <a
+          href='https://wa.me/5581971108259'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='contact-whatsapp'
+          aria-label='Conversar no WhatsApp'
+          style={{ display: 'inline-block', marginTop: 16 }}
+        >
+          <img src={imagens.whats} alt='WhatsApp' style={{ width: 48, height: 48 }} />
+        </a>
+      </section>
+      
     </div>
   );
 };

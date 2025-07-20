@@ -1,0 +1,36 @@
+.container-contact {
+    background: #232323;
+    border-radius: 10px;
+    padding: 32px 18px 32px 18px;
+    margin: 40px auto 0 auto;
+    max-width: 420px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  }
+  
+  .contact-title {
+    color: #969696;
+    font-family: 'Athene';
+    font-size: 2.2rem;
+    margin-bottom: 18px;
+  }
+  
+  .contact-email {
+    color: #f2eeee;
+    font-family: 'Kurale', serif;
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+  }
+  
+  .contact-email a {
+    color: #969696;
+    text-decoration: underline;
+  }
+  
+  .contact-whatsapp img {
+    transition: transform 0.2s;
+  }
+  
+  .contact-whatsapp img:hover {
+    transform: scale(1.12) rotate(-8deg);
+  }
+  

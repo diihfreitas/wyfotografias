@@ -1,36 +1,81 @@
 .container-contact {
-    background: #232323;
-    border-radius: 10px;
-    padding: 32px 18px 32px 18px;
-    margin: 40px auto 0 auto;
-    max-width: 420px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  background: linear-gradient(135deg, #232323 80%, #969696 100%);
+  border-radius: 0;
+  padding: 20px;
+  margin: 60px 0 0 0;
+  max-width: 100vw;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  border: none;
+}
+
+.contact-title {
+  color: #fff;
+  font-family: 'Athene';
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #23232399;
+}
+
+.contact-email {
+  color: #f2eeee;
+  font-family: 'Kurale', serif;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  letter-spacing: 0.2px;
+}
+
+.contact-email a {
+  color: #969696;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.contact-whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  background: none;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  box-shadow: none;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.contact-whatsapp img {
+  width: 56px;
+  height: 56px;
+  display: block;
+  margin: auto;
+  filter: drop-shadow(0 2px 4px #23232399);
+}
+
+.contact-whatsapp:hover {
+  box-shadow: none;
+  transform: scale(1.08) rotate(-6deg);
+}
+
+@media (max-width: 700px) {
+  .container-contact {
+    max-width: 100vw;
+    padding: 16px 2vw;
+    margin: 40px 0 0 0;
   }
-  
   .contact-title {
-    color: #969696;
-    font-family: 'Athene';
-    font-size: 2.2rem;
-    margin-bottom: 18px;
+    font-size: 1.3rem;
   }
-  
   .contact-email {
-    color: #f2eeee;
-    font-family: 'Kurale', serif;
-    font-size: 1.2rem;
-    margin-bottom: 18px;
+    font-size: 1rem;
   }
-  
-  .contact-email a {
-    color: #969696;
-    text-decoration: underline;
-  }
-  
   .contact-whatsapp img {
-    transition: transform 0.2s;
+    width: 38px;
+    height: 38px;
   }
-  
-  .contact-whatsapp img:hover {
-    transform: scale(1.12) rotate(-8deg);
-  }
+}
   

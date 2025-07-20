@@ -13,6 +13,7 @@ import renata from './renata.jpg'
 import sapatinhos from './sapatinhos.jpg'
 import silvania from './silvania.jpg'
 import simone from './simone.jpg'
+import whats from './whats.png'
 import williane from './williane.jpg'
 
 export {
@@ -31,5 +32,6 @@ export {
   sapatinhos,
   silvania,
   simone,
+  whats,
   williane
 } 

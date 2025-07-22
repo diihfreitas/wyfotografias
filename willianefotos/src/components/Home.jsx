@@ -12,6 +12,7 @@ import { EffectCoverflow, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
+import { Link } from 'react-router-dom';
 
 const GALLERY_IMAGES = [
   { src: imagens.aluna, alt: 'Aluna' },
@@ -125,7 +126,7 @@ const Home = () => {
           >
             <li><a href='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Início</a></li>
             <li><a href='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Biografia</a></li>
-            <li><a href='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Trabalhos</a></li>
+            <li><Link to='/works' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Trabalhos</Link></li>
             <li><a href='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Contato</a></li>
           </ul>
         </nav>

@@ -232,7 +232,7 @@ const Home = () => {
       <section className='container-contact' style={{ margin: '60px 0 0 0', textAlign: 'center' }}>
         <h2 className='contact-title'>Contato</h2>
         <div className='contact-row'>
-          <p className='contact-email'>E-mail: <a href='mailto:willianeyale@gmail.com'>willianeyale@gmail.com</a></p>
+          <p className='contact-email'>E-mail: <a href='mailto:yalefotos33@gmail.com'>yalefotos33@gmail.com</a></p>
           <a
             href='https://wa.me/5581971108259'
             target='_blank'

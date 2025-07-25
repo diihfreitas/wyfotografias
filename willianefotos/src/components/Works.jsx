@@ -74,7 +74,6 @@ const Works = () => {
         </nav>
       </section>
       {/* Conteúdo específico da página Works pode ser adicionado abaixo */}
-      <div>Works</div>
     </div>
   );
 };

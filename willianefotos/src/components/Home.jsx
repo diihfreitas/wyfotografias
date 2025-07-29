@@ -124,16 +124,16 @@ const Home = () => {
             role='menu'
             aria-hidden={!menuOpen && window.innerWidth <= 700}
           >
-            <li><Link to='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Início</Link></li>
-            <li><Link to='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Biografia</Link></li>
-            <li><Link to='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Trabalhos</Link></li>
-            <li><Link to='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Contato</Link></li>
+            <li><a href='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Início</a></li>
+            <li><a href='#minibio' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Biografia</a></li>
+            <li><a href='#galery' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Trabalhos</a></li>
+            <li><a href='#contact' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Contato</a></li>
           </ul>
         </nav>
       </section>
 
       {/* Galeria de Trabalhos */}
-      <section className='container-galery'>
+      <section id='galery' className='container-galery'>
         <div className='galery-grid'>
           {GALLERY_IMAGES.map((img, idx) => (
             <img
@@ -169,7 +169,7 @@ const Home = () => {
       </section>
 
       {/* Biografia */}
-      <section className='container-minibio'>
+      <section id='minibio' className='container-minibio'>
         <img src={imagens.williane} alt='Williane Yale' className='minibio-img' />
         <div className='grid-minibio'>
           <h2 className='hello'>Olá meus amigos...</h2>
@@ -230,7 +230,7 @@ const Home = () => {
       </section>
       
       {/* Contato */}
-      <section className='container-contact' style={{ margin: '60px 0 0 0', textAlign: 'center' }}>
+      <section id='contact' className='container-contact' style={{ margin: '60px 0 0 0', textAlign: 'center' }}>
         <h2 className='contact-title'>Contato</h2>
         <div className='contact-row'>
           <p className='contact-email'>E-mail: <a href='mailto:yalefotos33@gmail.com'>yalefotos33@gmail.com</a></p>

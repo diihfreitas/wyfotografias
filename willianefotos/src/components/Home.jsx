@@ -124,10 +124,10 @@ const Home = () => {
             role='menu'
             aria-hidden={!menuOpen && window.innerWidth <= 700}
           >
-            <li><a href='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Início</a></li>
-            <li><a href='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Biografia</a></li>
-            <li><Link to='/works' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Trabalhos</Link></li>
-            <li><a href='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Contato</a></li>
+            <li><Link to='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Início</Link></li>
+            <li><Link to='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Biografia</Link></li>
+            <li><Link to='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Trabalhos</Link></li>
+            <li><Link to='#' className='menu-link' tabIndex={menuOpen || window.innerWidth > 700 ? 0 : -1}>Contato</Link></li>
           </ul>
         </nav>
       </section>
